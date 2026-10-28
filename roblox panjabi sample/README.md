@@ -1,5 +1,15 @@
 # Roblox Panjabi samples
 
+## Detailed original collection: 16–19
+
+[Browse four detailed designs](detailed-collection-16-19/README.md) · [Download four PNGs as ZIP](detailed-collection-16-19/four-detailed-panjabi-designs-16-19.zip)
+
+Original navy/ivory geometric Ajrak lattice, sage/cream leafy vines, ochre/maroon paisleys, and plum/rose floral trellis. Decoration covers front, back, sides and sleeves, with coordinated collars, cuffs and torso hems. Ochre has extra vertical front border rails; plum has a curved chest frame. One textured soft-fold PNG per design, using the approved 585 × 559 layout and exact alpha openings. White unused canvas and `2.94` logo retained.
+
+![Four detailed Panjabi designs](detailed-collection-16-19/four-detailed-designs-preview.jpg)
+
+Dimensions, exact alpha equality, patterned back/side/sleeve regions and ZIP integrity verified. Not tested in Roblox Studio.
+
 ## New reference set: 12–15
 
 [Browse all four completed PNGs](reference-set-12-15/README.md) · [Download the four-PNG ZIP](reference-set-12-15/four-panjabi-reference-designs-12-15.zip)

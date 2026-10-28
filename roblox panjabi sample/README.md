@@ -1,5 +1,15 @@
 # Roblox Panjabi samples
 
+## Eight new references: 26–33
+
+[Browse eight finished PNGs](reference-set-26-33/README.md) · [Download all eight as ZIP](reference-set-26-33/eight-reference-panjabi-designs-26-33.zip)
+
+Adapted from all eight photographs in `demo 3.zip`. Burgundy/beige embroidery, coral ikat, lavender/orange diamond yoke, pink/gold yoke, taupe patchwork, lilac paisley, charcoal ornamental yoke and rose floral lattice. One textured soft-fold PNG per reference, with the approved 585 × 559 layout, exact genuine alpha openings, white unused canvas and `2.94` logo.
+
+![Eight Panjabi designs](reference-set-26-33/eight-designs-preview.jpg)
+
+Dimensions, exact alpha equality, artwork placement and ZIP integrity checked. Not tested in Roblox Studio.
+
 ## Six new references: 20–25
 
 [Browse six finished PNGs](reference-set-20-25/README.md) · [Download all six as ZIP](reference-set-20-25/six-reference-panjabi-designs-20-25.zip)

@@ -1,5 +1,20 @@
 # Roblox Panjabi samples
 
+## Sample 07: Ivory and navy — two fabric variants
+
+Same reference design in two separate wearable PNG files:
+
+- [A: woven texture, no folds](panjabi-ivory-navy-sample-07-no-folds.png)
+- [B: woven texture, gentle folds](panjabi-ivory-navy-sample-07-soft-folds.png)
+
+![Variant comparison](previews/sample-07-comparison.png)
+
+Off-white/ivory matte cotton, navy neckline border, a navy V-shaped chest stripe, three small dark buttons with a subtle white placket stitch, and thin navy sleeve-end borders. No pocket in this reference. Both variants retain identical design positions and the approved 585 × 559 panel layout/alpha mask. Real alpha equality with Sample03 was checked for both exports. Fabric weave remains visible in both, while version B adds restrained diffuse fold shading without glossy highlights.
+
+Verification previews (flattened, not wearable textures): [A alpha proof](previews/sample-07-alpha-no-folds.png) · [B alpha proof](previews/sample-07-alpha-soft-folds.png). Not tested on an avatar in Roblox Studio.
+
+**Current user preference:** by default, make TWO separate PNGs of each new design: woven cloth with no large folds, and the same design with woven cloth plus soft folds. No-folds must still have visible fabric detail; do not flatten it into a solid background. Both variants should avoid shiny reflections. If the user explicitly requests one sample, deliver only one. Push the completed PNGs into this folder.
+
 ## Sample 06: Textured charcoal correction
 
 [Download the actual shirt PNG](panjabi-textured-charcoal-sample-06.png)

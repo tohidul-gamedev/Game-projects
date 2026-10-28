@@ -1,5 +1,19 @@
 # Roblox Panjabi samples
 
+## Sample 05: Matte charcoal with beige piping
+
+[Download the actual shirt PNG](panjabi-matte-charcoal-sample-05.png)
+
+![Matte charcoal Panjabi](panjabi-matte-charcoal-sample-05.png)
+
+Inspired by the supplied black Panjabi: matte charcoal cotton, fine beige/champagne-gold collar piping, a narrow placket with four small ivory-gold buttons, a chest pocket on the wearer's left with matching top piping, and fine piping around both sleeve ends. No embroidery or broad gold cuff bands in this reference.
+
+The user requested matte cloth after finding the royal-blue sample's baked reflections distracting. Future cloth should use restrained, even color and very faint texture, avoiding glossy lighting, bright highlights and strong light/dark bands even when present in reference photographs. This sample's plain back-panel brightness varies only about one 8-bit level after flattening the cloth shading.
+
+585 × 559 RGBA; alpha is pixel-for-pixel identical to the approved Sample03. White background and `2.94` logo retained. Neckline, sleeves and all panel positions retain the approved mapping. Dimension, alpha, background and matte-cloth checks passed. Not tested on an avatar in Roblox Studio.
+
+Verification previews (not wearable textures): [alpha proof](previews/sample-05-alpha-proof.png) · [template overlay](previews/sample-05-overlay-check.png).
+
 ## Sample 04: Royal blue and antique gold
 
 [Download the actual shirt PNG](panjabi-royal-blue-sample-04.png)

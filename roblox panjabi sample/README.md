@@ -1,5 +1,15 @@
 # Roblox Panjabi samples
 
+## Six new references: 20–25
+
+[Browse six finished PNGs](reference-set-20-25/README.md) · [Download all six as ZIP](reference-set-20-25/six-reference-panjabi-designs-20-25.zip)
+
+Adapted from the six photographs in `demo 2.zip`: olive diamond jacquard; pale-blue shirt with blue patchwork waistcoat effect; copper with black neckline embroidery; black with curved ivory/gold brocade inlay; wine with bronze U-shaped embroidery and long rails; crimson with one gold paisley side panel and offset buttons. One textured soft-fold PNG per design, retaining the approved 585 × 559 layout, exact real alpha openings, white unused canvas and `2.94` logo.
+
+![Six Panjabi designs](reference-set-20-25/six-designs-preview.jpg)
+
+Dimensions, exact alpha equality, garment-specific feature placement and ZIP integrity checked. Not tested in Roblox Studio.
+
 ## Detailed original collection: 16–19
 
 [Browse four detailed designs](detailed-collection-16-19/README.md) · [Download four PNGs as ZIP](detailed-collection-16-19/four-detailed-panjabi-designs-16-19.zip)

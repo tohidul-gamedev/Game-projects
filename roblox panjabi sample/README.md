@@ -1,5 +1,15 @@
 # Roblox Panjabi samples
 
+## New reference set: 12–15
+
+[Browse all four completed PNGs](reference-set-12-15/README.md) · [Download the four-PNG ZIP](reference-set-12-15/four-panjabi-reference-designs-12-15.zip)
+
+Based on the four photographs in `new demo.zip`: grey/white botanical stripes; black with long bronze embroidered bands and layered cuffs; black with sparse upper-chest gold buta motifs; maroon pinstripes with crimson embroidered neckline/placket. One soft-fold version per design. All retain the approved 585 × 559 panel layout, genuine alpha cutouts, opaque white unused canvas and `2.94` logo.
+
+![Four reference-based designs](reference-set-12-15/four-designs-preview.jpg)
+
+Dimensions, exact alpha equality and ZIP integrity checked. Not tested in Roblox Studio.
+
 ## Four original designs: 08–11
 
 [Browse all four designs and both fabric variants](original-collection-08-11/README.md) · [Download all eight PNGs as ZIP](original-collection-08-11/four-original-panjabi-designs-08-11.zip)
@@ -23,7 +33,7 @@ Off-white/ivory matte cotton, navy neckline border, a navy V-shaped chest stripe
 
 Verification previews (flattened, not wearable textures): [A alpha proof](previews/sample-07-alpha-no-folds.png) · [B alpha proof](previews/sample-07-alpha-soft-folds.png). Not tested on an avatar in Roblox Studio.
 
-**Current user preference:** by default, make TWO separate PNGs of each new design: woven cloth with no large folds, and the same design with woven cloth plus soft folds. No-folds must still have visible fabric detail; do not flatten it into a solid background. Both variants should avoid shiny reflections. If the user explicitly requests one sample, deliver only one. Push the completed PNGs into this folder.
+**Current user preference:** provide only ONE textured soft-fold PNG per design. Preserve visible fabric weave and natural gentle folds without glossy reflections. No-fold versions are no longer the default. Earlier paired files are retained as history.
 
 ## Sample 06: Textured charcoal correction
 

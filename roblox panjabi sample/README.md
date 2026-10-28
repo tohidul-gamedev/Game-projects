@@ -1,13 +1,23 @@
 # Roblox Panjabi samples
 
-Generated Panjabi design samples for Roblox Classic Shirts.
+## Current revision: Sample 02
 
-## Sample 01: Magenta Panjabi
+![Revised magenta Panjabi](panjabi-magenta-sample-02.png)
 
-![Magenta Panjabi sample](panjabi-magenta-sample-01.png)
+[Download Sample 02](panjabi-magenta-sample-02.png)
 
-Inspired by the supplied real-life Panjabi reference: magenta-purple fabric, silver/lilac neckline embroidery and four small gold-tone buttons. The PNG includes alpha transparency around the neckline and sleeve ends.
+585 × 559 RGBA PNG laid out on the Roblox Classic Shirt panel coordinates. Magenta-purple fabric and pale silver/lilac chest embroidery with four small ivory-gold buttons, inspired by the supplied real-life Panjabi photograph.
 
-Status: design draft. Original generated dimensions are 1283 × 1226 pixels. It still needs accurate panel alignment on the official 585 × 559 Classic Shirt template and testing in Roblox Studio before upload.
+Changes requested by the user:
+- White opaque background outside mapped garment panels, with a black `2.94` brand mark in unused space.
+- No black template outlines or guide grid. Fabric fills the mapped faces and narrow internal torso/shoulder gutters.
+- Rounded transparent neck opening centered on the UP/FRONT junction, extending into both faces.
+- Small transparent hand-exposure strips across all sleeve side faces and transparent arm DOWN faces. Remaining garment areas are opaque.
 
-Future generated Panjabi samples from this conversation will be kept in this folder, using sequential filenames.
+The generated artwork was assembled onto the fixed template coordinates for export. Pixel checks confirm dimensions, alpha cutouts, opaque cloth coverage, and white background. Not yet tested on a character in Roblox Studio.
+
+## Previous draft: Sample 01
+
+[Original generated concept](panjabi-magenta-sample-01.png), 1283 × 1226 pixels. Retained for history; superseded by Sample 02 after feedback about panel gaps, outlines, background and neckline placement. Use Sample 02 for the revised template.
+
+Future generated Panjabi samples from this conversation belong in this folder with sequential filenames.

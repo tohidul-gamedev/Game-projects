@@ -1,5 +1,17 @@
 # Roblox Panjabi samples
 
+## Sample 06: Textured charcoal correction
+
+[Download the actual shirt PNG](panjabi-textured-charcoal-sample-06.png)
+
+![Textured charcoal Panjabi](panjabi-textured-charcoal-sample-06.png)
+
+Corrects Sample05, whose cloth was flattened too much and appeared to be a plain dark background. The intended preference is visible woven fabric and soft natural folds, with restrained diffuse shading and no glossy reflections or bright specular bands. Do not remove textile detail to remove shine.
+
+The black cloth was regenerated using the approved magenta fabric as a texture reference, retaining woven grain and natural creases in a matte charcoal palette. Placket, four buttons, pocket, beige collar/cuff piping, logo and 585 × 559 layout are retained. Placket and pocket pixel regions are unchanged from Sample05; the real PNG alpha channel is identical to the approved Sample03. Plain-cloth brightness now has visible variation (roughly 25–46 for its 1st–99th percentiles on an 8-bit scale), instead of the nearly uniform previous version.
+
+[Alpha proof](previews/sample-06-alpha-proof.png) · [Template overlay](previews/sample-06-overlay-check.png). These are flattened inspection previews, not wearable textures. Studio testing has not been performed.
+
 ## Sample 05: Matte charcoal with beige piping
 
 [Download the actual shirt PNG](panjabi-matte-charcoal-sample-05.png)
@@ -8,7 +20,7 @@
 
 Inspired by the supplied black Panjabi: matte charcoal cotton, fine beige/champagne-gold collar piping, a narrow placket with four small ivory-gold buttons, a chest pocket on the wearer's left with matching top piping, and fine piping around both sleeve ends. No embroidery or broad gold cuff bands in this reference.
 
-The user requested matte cloth after finding the royal-blue sample's baked reflections distracting. Future cloth should use restrained, even color and very faint texture, avoiding glossy lighting, bright highlights and strong light/dark bands even when present in reference photographs. This sample's plain back-panel brightness varies only about one 8-bit level after flattening the cloth shading.
+The user requested matte cloth after finding the royal-blue sample's baked reflections distracting. This draft flattened the cloth excessively (about one 8-bit level of brightness variation) and was rejected for missing fabric detail. Use Sample06 for the corrected charcoal version. Future cloth must retain visible woven texture and gentle natural folds while avoiding glossy reflections.
 
 585 × 559 RGBA; alpha is pixel-for-pixel identical to the approved Sample03. White background and `2.94` logo retained. Neckline, sleeves and all panel positions retain the approved mapping. Dimension, alpha, background and matte-cloth checks passed. Not tested on an avatar in Roblox Studio.
 

@@ -1,5 +1,15 @@
 # Roblox Panjabi samples
 
+## Four original designs: 08–11
+
+[Browse all four designs and both fabric variants](original-collection-08-11/README.md) · [Download all eight PNGs as ZIP](original-collection-08-11/four-original-panjabi-designs-08-11.zip)
+
+Original designs created without a supplied garment reference: emerald/gold botanical with pocket; burgundy/silver geometric with framed placket; teal/ivory modern asymmetric chest line; sand/chocolate Kantha-style stitching with pocket. Each has a textured no-fold version and a textured soft-fold version. All eight retain the approved 585 × 559 mapping, actual alpha cutouts, white unused background and `2.94` logo.
+
+![Four designs, two variants each](original-collection-08-11/collection-comparison.jpg)
+
+Dimensions and exact alpha equality with approved Sample03 were checked for all eight PNGs, as well as ZIP integrity. No Studio avatar testing has been performed. The comparison is a preview, not a wearable texture.
+
 ## Sample 07: Ivory and navy — two fabric variants
 
 Same reference design in two separate wearable PNG files:

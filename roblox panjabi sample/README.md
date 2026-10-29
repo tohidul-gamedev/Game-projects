@@ -1,5 +1,15 @@
 # Roblox Panjabi samples
 
+## Five original layered styles: 34–38
+
+[Browse five finished PNGs](original-layered-34-38/README.md) · [Download all five as ZIP](original-layered-34-38/five-original-layered-panjabi-designs-34-38.zip)
+
+Distinct original outfit treatments: ivory/red checked gamcha with unequal fringed ends; navy/rust paisley shawl wrapping one shoulder; sage kurta under an Ajrak waistcoat; terracotta Angrakha wrap with side ties and botanical print; indigo Kantha patchwork with a diagonal pocket. Details continue over backs, sides and sleeves as appropriate. One textured soft-fold PNG per design, retaining approved 585 × 559 mapping, genuine alpha openings, white unused canvas and `2.94` logo.
+
+![Five original layered designs](original-layered-34-38/five-layered-designs-preview.jpg)
+
+Dimensions, exact alpha equality, style-specific material placement and ZIP integrity checked. Not tested in Roblox Studio.
+
 ## Eight new references: 26–33
 
 [Browse eight finished PNGs](reference-set-26-33/README.md) · [Download all eight as ZIP](reference-set-26-33/eight-reference-panjabi-designs-26-33.zip)

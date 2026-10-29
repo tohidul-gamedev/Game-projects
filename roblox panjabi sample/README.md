@@ -199,3 +199,8 @@ Keep future designs in this folder with sequential filenames, retaining the appr
 - [Corrected samples 02–05 with fully covered feet and shoes](pajama-white-02-05-with-shoes/) — use this version for full footwear coverage.
 
 - [Sample06: demo-style plain white cotton with the same shoes](pajama-06-demo-white/) — small soft folds and gray shadows, one PNG.
+
+
+## Portable AI prompt and references
+
+- [Panjabi AI reference pack](ai-panjabi-reference-pack/) — Bengali production prompt, six reference images including exact alpha and guide, native UV coordinates and helper checks.

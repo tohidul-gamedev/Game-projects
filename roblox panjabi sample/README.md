@@ -1,5 +1,15 @@
 # Roblox Panjabi samples
 
+## Five new original styles: 44–48
+
+[Browse five finished PNGs](original-layered-44-48/README.md) · [Download all five as ZIP](original-layered-44-48/five-original-layered-panjabi-designs-44-48.zip)
+
+Coffee/saffron broad Ajrak shoulder wrap; ice-blue/ivory quilted double-breasted bundi; lilac/teal looped paisley stole; olive/rust belted Angrakha with botanical print; wine/sand asymmetric ikat coat panel. Each has its own layering, fastenings, pockets and coordinated back/sleeve details. One matte woven soft-fold PNG per design, using the approved 585 × 559 mapping, genuine alpha openings, white unused canvas and `2.94` logo.
+
+![Five new original designs](original-layered-44-48/five-layered-designs-preview.jpg)
+
+Dimensions, exact alpha equality, style-specific material placement and ZIP integrity verified. Not tested in Roblox Studio.
+
 ## Five new layered styles: 39–43
 
 [Browse five finished PNGs](original-layered-39-43/README.md) · [Download all five as ZIP](original-layered-39-43/five-original-layered-panjabi-designs-39-43.zip)

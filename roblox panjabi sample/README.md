@@ -193,3 +193,5 @@ Keep future designs in this folder with sequential filenames, retaining the appr
 ## Pajama / Classic Pants
 
 - [Sample 01: ivory cotton pajama, soft folds](pajama-sample-01/) — one585×559 RGBA PNG, torso transparent.
+
+- [Samples02–05: four white pajamas](pajama-white-02-05/) — two simple and two embroidered, one soft-fold PNG each.

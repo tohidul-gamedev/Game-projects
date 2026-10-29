@@ -1,0 +1,197 @@
+{
+  "platform": "Roblox Classic Shirt",
+  "canvas": {
+    "width": 585,
+    "height": 559,
+    "format": "PNG",
+    "mode": "RGBA",
+    "channel_depth": 8
+  },
+  "coordinate_system": {
+    "origin": "top-left",
+    "indexing": "zero-based",
+    "rect_format": [
+      "x",
+      "y",
+      "width",
+      "height"
+    ],
+    "bounds": "x<=pixel_x<x+width; y<=pixel_y<y+height",
+    "side_names": "avatar anatomical right and left, not viewer right and left"
+  },
+  "alpha_mask": "03-shirt-alpha-mask.png",
+  "alpha_rule": "Copy as final alpha channel exactly; mask WHITE=255opaque BLACK=0transparent GRAY=partial. Unused canvas remains opaque white. Do not visibly composite mask onto cloth.",
+  "panels": {
+    "torso": {
+      "up": [
+        231,
+        8,
+        128,
+        64
+      ],
+      "right": [
+        165,
+        74,
+        64,
+        128
+      ],
+      "front": [
+        231,
+        74,
+        128,
+        128
+      ],
+      "left": [
+        361,
+        74,
+        64,
+        128
+      ],
+      "back": [
+        427,
+        74,
+        128,
+        128
+      ],
+      "down": [
+        231,
+        204,
+        128,
+        64
+      ]
+    },
+    "right_arm": {
+      "up": [
+        217,
+        289,
+        64,
+        64
+      ],
+      "left": [
+        19,
+        355,
+        64,
+        128
+      ],
+      "back": [
+        85,
+        355,
+        64,
+        128
+      ],
+      "right": [
+        151,
+        355,
+        64,
+        128
+      ],
+      "front": [
+        217,
+        355,
+        64,
+        128
+      ],
+      "down": [
+        217,
+        485,
+        64,
+        64
+      ]
+    },
+    "left_arm": {
+      "up": [
+        308,
+        289,
+        64,
+        64
+      ],
+      "front": [
+        308,
+        355,
+        64,
+        128
+      ],
+      "left": [
+        374,
+        355,
+        64,
+        128
+      ],
+      "back": [
+        440,
+        355,
+        64,
+        128
+      ],
+      "right": [
+        506,
+        355,
+        64,
+        128
+      ],
+      "down": [
+        308,
+        485,
+        64,
+        64
+      ]
+    }
+  },
+  "optional_pre_mask_paint_bleed_rects_xyxy_inclusive": [
+    [
+      164,
+      73,
+      555,
+      202
+    ],
+    [
+      230,
+      7,
+      359,
+      73
+    ],
+    [
+      230,
+      203,
+      359,
+      268
+    ],
+    [
+      18,
+      354,
+      281,
+      483
+    ],
+    [
+      216,
+      288,
+      281,
+      354
+    ],
+    [
+      307,
+      354,
+      570,
+      483
+    ],
+    [
+      307,
+      288,
+      372,
+      354
+    ]
+  ],
+  "branding": {
+    "text": "2.94",
+    "x": 40,
+    "baseline_y": 210,
+    "font_size": 29,
+    "suggested_font": "DejaVu-Sans-Bold",
+    "color": "#161616",
+    "location": "unused left canvas outside all wearable faces"
+  },
+  "guide_only": "02-uv-overlay-GUIDE-ONLY.png must not become final wearable artwork",
+  "neck_rule": "Use exact mask. Opening crosses torso UP/FRONT seam; do not move it entirely into UP.",
+  "cloth_rule": "Visible fine matte cotton/linen weave, gentle folds, diffuse shade, no satin glare, no flat solid black.",
+  "deliverables": "One folded585x559RGBA8 PNG per requested design, separate preview, ZIP for a set. No no-fold second version unless requested."
+}

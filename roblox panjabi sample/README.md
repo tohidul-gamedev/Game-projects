@@ -1,5 +1,15 @@
 # Roblox Panjabi samples
 
+## Five new layered styles: 39–43
+
+[Browse five finished PNGs](original-layered-39-43/README.md) · [Download all five as ZIP](original-layered-39-43/five-original-layered-panjabi-designs-39-43.zip)
+
+Forest/ivory Jamdani-style stole; ochre/plum cropped embroidered koti with cream mirror-work; rose/teal cross-body sash with knot and fringe; pearl/aubergine long open achkan; cobalt/sand large diagonal panels with wooden toggles. Distinct layering and coordinated back, side and sleeve details. One matte woven soft-fold PNG per design, retaining approved 585 × 559 mapping, genuine alpha openings, white unused canvas and `2.94` logo.
+
+![Five new layered designs](original-layered-39-43/five-layered-designs-preview.jpg)
+
+Dimensions, exact alpha equality, style-specific material placement and ZIP integrity checked. Not tested in Roblox Studio.
+
 ## Five original layered styles: 34–38
 
 [Browse five finished PNGs](original-layered-34-38/README.md) · [Download all five as ZIP](original-layered-34-38/five-original-layered-panjabi-designs-34-38.zip)

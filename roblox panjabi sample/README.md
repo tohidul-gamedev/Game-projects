@@ -1,5 +1,17 @@
 # Roblox Panjabi samples
 
+## Ten more original layered styles: 64–73
+
+[Browse ten finished PNGs](original-layered-64-73/README.md) · [Download all ten as ZIP](original-layered-64-73/ten-original-layered-panjabi-designs-64-73.zip)
+
+Brick/ivory checked shoulder gamcha; seafoam/ink braided short bundi; ivory/plum quilted single cape; maroon/sage leaf-jaal coat; slate/copper wave Angrakha; peach/bottle-green paisley half-coat; lavender/indigo striped stole; rose/ivory patchwork utility vest; sand/indigo/clay chevron sash; charcoal/turquoise floral wrap. Each has distinct layering, fastenings, pockets and coordinated back, shoulder, side and sleeve artwork. One matte woven soft-fold PNG per design with approved 585 × 559 mapping, real alpha openings, white unused canvas and `2.94` branding.
+
+![Designs 64–68](original-layered-64-73/preview-first-five.jpg)
+
+![Designs 69–73](original-layered-64-73/preview-second-five.jpg)
+
+Dimensions, exact alpha equality, real cutouts, branding, visible cloth detail, unique outputs and ZIP integrity verified. Not tested in Roblox Studio.
+
 ## Ten original layered styles: 54–63
 
 [Browse ten finished PNGs](original-layered-54-63/README.md) · [Download all ten as ZIP](original-layered-54-63/ten-original-layered-panjabi-designs-54-63.zip)

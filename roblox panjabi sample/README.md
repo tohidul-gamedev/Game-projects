@@ -1,5 +1,15 @@
 # Roblox Panjabi samples
 
+## Five more original layered styles: 49–53
+
+[Browse five finished PNGs](original-layered-49-53/README.md) · [Download all five as ZIP](original-layered-49-53/five-original-layered-panjabi-designs-49-53.zip)
+
+Midnight/ivory triangular Kantha shoulder cloth; charcoal/crimson brocade jacket with frog closures; mint/rose floral shawl-collar coat; ochre/slate utility koti with flap pockets; ivory/maroon botanical kurta with checked waist gamcha. Distinct layer shapes, fastenings and pockets, with coordinated back, shoulder, side and sleeve details. One matte woven soft-fold PNG per design, using approved 585 × 559 mapping, genuine alpha openings, white unused canvas and `2.94` branding.
+
+![Five new original styles](original-layered-49-53/five-layered-designs-preview.jpg)
+
+Dimensions, exact alpha equality, style-specific material placement and ZIP integrity checked. Not tested in Roblox Studio.
+
 ## Five new original styles: 44–48
 
 [Browse five finished PNGs](original-layered-44-48/README.md) · [Download all five as ZIP](original-layered-44-48/five-original-layered-panjabi-designs-44-48.zip)

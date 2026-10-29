@@ -187,3 +187,9 @@ Approved by the user as the layout and transparency master for future designs. 5
 - [Sample 02](panjabi-magenta-sample-02.png): earlier fixed-size revision; use approved Sample 03 instead.
 
 Keep future designs in this folder with sequential filenames, retaining the approved Sample 03 layout/alpha unless the user requests a change. Download the actual PNG files for clothing; do not use screenshots or flattened verification previews.
+
+
+
+## Pajama / Classic Pants
+
+- [Sample 01: ivory cotton pajama, soft folds](pajama-sample-01/) — one585×559 RGBA PNG, torso transparent.

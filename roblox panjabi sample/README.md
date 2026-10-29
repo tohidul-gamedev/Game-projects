@@ -197,3 +197,5 @@ Keep future designs in this folder with sequential filenames, retaining the appr
 - [Samples02–05: four white pajamas](pajama-white-02-05/) — two simple and two embroidered, one soft-fold PNG each.
 
 - [Corrected samples 02–05 with fully covered feet and shoes](pajama-white-02-05-with-shoes/) — use this version for full footwear coverage.
+
+- [Sample06: demo-style plain white cotton with the same shoes](pajama-06-demo-white/) — small soft folds and gray shadows, one PNG.

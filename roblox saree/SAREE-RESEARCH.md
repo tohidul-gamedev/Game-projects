@@ -1,15 +1,24 @@
 # শাড়ি: ব্যবহারকারীর স্যাম্পল বিশ্লেষণ ও ভবিষ্যতের কাজের নিয়ম
 
 
+
+## সর্বশেষ ডিফল্ট — প্রতিটি শাড়ির সঙ্গে matching হাতা, কোনো প্রিভিউ নয়
+
+ব্যবহারকারীর সর্বশেষ নির্দেশ: প্রতিবার শাড়ি বানাতে বললেই প্রতিটি ডিজাইনের জন্য **দুটি আলাদা 585×559 RGBA8 wearable PNG** দিতে হবে—(১) Classic Pants শাড়ি, (২) matching short-sleeve Classic Shirt। হাতা আলাদাভাবে চাইতে হবে না। Shirt-এর সব mapped torso face alpha 0 থাকবে, যাতে Pants-এর blouse/pallu এবং অনুমোদিত open waist/side cutouts বদলে না যায়। Forearm ও hands খোলা থাকবে, যদি ভিন্ন নির্দেশ না থাকে।
+
+**প্রিভিউ, 3D mockup, thumbnail, comparison board বা preview file তৈরি/প্রকাশ করবেন না**, ব্যবহারকারী পরে আলাদা করে না চাইলে। শুধু final wearable PNG এবং একাধিক হলে ZIP দিন। চূড়ান্ত native PNG সরাসরি দেখে ও dimensions/mode/alpha/layering checks দিয়ে যাচাই করুন। সব final PNG/ZIP অনুমোদিত GitHub repository-তে push করুন। এই নির্দেশ আগের optional-sleeve এবং preview workflow-কে প্রতিস্থাপন করেছে।
+
+নতুন উদাহরণ: `sets-08-09/`—ivory/terracotta botanical এবং peacock-blue/violet ikat, প্রতিটির matching sleeve Shirt-সহ। এই collection-এ চারটি PNG এবং একটি ZIP আছে; কোনো preview file নেই।
+
 ## ব্যবহারকারীর নিশ্চিত করা শাড়ি ও আলাদা হাতার নিয়ম
 
-ব্যবহারকারী শাড়ি ০৪–০৬-এর আলাদা blouse, broad pallu, true open waist/side cutouts এবং unique motif-based styles পছন্দ করেছেন। ভবিষ্যতে শাড়ি চাইলে এই গঠন ধরে নতুন unique design দিন; আগের full-torso কাপড়ে ঢাকা গঠন ফিরিয়ে আনবেন না। হাতে কাজ চাইলে শাড়ির Pants এবং sleeves-এর Shirt **দুটি আলাদা wearable PNG** দিতে হবে। শুধু শাড়ি বললে অতিরিক্ত হাতা বাধ্যতামূলক নয়।
+ব্যবহারকারী শাড়ি ০৪–০৬-এর আলাদা blouse, broad pallu, true open waist/side cutouts এবং unique motif-based styles পছন্দ করেছেন। ভবিষ্যতে শাড়ি চাইলে এই গঠন ধরে নতুন unique design দিন; আগের full-torso কাপড়ে ঢাকা গঠন ফিরিয়ে আনবেন না। হাতে কাজ চাইলে শাড়ির Pants এবং sleeves-এর Shirt **দুটি আলাদা wearable PNG** দিতে হবে। সর্বশেষ নির্দেশ অনুযায়ী শুধু শাড়ি বললেও আলাদা matching হাতার Shirt দিতে হবে।
 
 হাতা-সহ সম্পূর্ণ উদাহরণ: `saree-07-emerald-rose-set/`। Pants-এ শাড়ি ও blouse আছে; Shirt-এ শুধু arms। Shirt-এর mapped torso UP/FRONT/BACK/LEFT/RIGHT/DOWN-এ **প্রতিটি pixel alpha 0**—তাতে Pants-এর blouse/pallu/midriff ঢেকে যায় না। Arm top cap opaque; vertical arm face-এর প্রথম প্রায় 56 pixels-এ short sleeve, নিচের forearm ও hand/DOWN transparent।
 
 নতুন `saree hand.zip`-এর 103/107 source **586×559 RGBA**, native 585×559 নয়। Artwork native coordinates-এ পুনর্গঠন করতে হবে। 103-এ কেন্দ্রীয় arm columns y355–403 পর্যন্ত opaque, 107-এ y355–410। Source-এর mapped torso মূলত transparent; DOWN torso-র মধ্যে source lettering আছে, যা নতুন Shirt-এ কপি করলে শাড়ির ওপর অপ্রয়োজনীয় লেখা/কাপড় বসতে পারে। তাই সব mapped torso faces পরীক্ষা করে সম্পূর্ণ clear রাখতে হবে। Source background, template outline এবং branding কপি নয়।
 
-প্রিভিউতে Pants-only ও Pants+Shirt আলাদা দেখান। PNG file role স্পষ্ট করুন: **Classic Pants** বনাম **Classic Shirt**, square T-shirt graphic নয়। Native RGBA8 এবং per-face alpha যাচাই করুন; layering-এ Pants torso অপরিবর্তিত থাকে কি না pixel comparison করুন। উদাহরণগুলোর style preference ও এই নিয়ম repository notes-এ রাখা হলো, যাতে ভবিষ্যতের কাজেও পুনরায় ব্যবহার করা যায়।
+সর্বশেষ নির্দেশ অনুযায়ী preview file তৈরি করবেন না; native PNG এবং Shirt/Pants layering alpha পরীক্ষা করুন। PNG file role স্পষ্ট করুন: **Classic Pants** বনাম **Classic Shirt**, square T-shirt graphic নয়। Native RGBA8 এবং per-face alpha যাচাই করুন; layering-এ Pants torso অপরিবর্তিত থাকে কি না pixel comparison করুন। উদাহরণগুলোর style preference ও এই নিয়ম repository notes-এ রাখা হলো, যাতে ভবিষ্যতের কাজেও পুনরায় ব্যবহার করা যায়।
 
 ## সর্বশেষ সংশোধন — কোমর ও পাশের আসল transparency বাধ্যতামূলক
 
@@ -25,7 +34,7 @@
 
 - এখন পাঞ্জাবি নয়, শাড়ি তৈরি হবে।
 - শাড়ি **Classic Pants**: ব্লাউজ, চওড়া আঁচল ও নিচের শাড়ি থাকবে; neckline, কোমর/মিডরিফ, উপযুক্ত পাশে এবং drape-এ cutouts থাকবে; দুই হাত খোলা থাকবে।
-- আলাদা হাতা/বালা/হাতের নকশা কেবল পরে ব্যবহারকারী চাইলে তৈরি করতে হবে।
+- প্রতিটি নতুন শাড়ির সঙ্গে matching short-sleeve Shirt দিতে হবে; অতিরিক্ত বালা বা অন্য হাতের কাজ শুধু আলাদা নির্দেশ থাকলে।
 - ভাঁজ ও shadow যেন চোখে বেশি না লাগে; সূক্ষ্ম matte cotton texture ও নরম ভাঁজ রাখুন।
 - এই চ্যাটে নতুন তৈরি wearable PNG ও preview অনুমোদিত `tohidul-gamedev/Game-projects` repository-র `main` branch-এ `roblox saree/`-এর নতুন ফোল্ডারে push করার নির্দেশ রয়েছে। বিদ্যমান কাজ বদলাবেন না।
 
@@ -74,7 +83,7 @@ Left/right নাম avatar-এর শরীরের দিক, ছবির �
 - Native borders-এর বাইরে প্রায় 1-pixel bleed আছে; unused canvas সাদা এবং `2.94` লেখা wearable faces-এর বাইরে।
 - আঁচল front থেকে shoulder UP পেরিয়ে back-এ যায়। Front leg-এর দুই half-এ shallow curved band আছে; hem height চারপাশে একই।
 
-## পরে হাতা চাইলে
+## প্রতিটি শাড়ির সঙ্গে হাতার Shirt তৈরির নিয়ম
 
 1. মূল Pants অক্ষত রাখুন।
 2. নতুন **585×559 RGBA Classic Shirt** বানান।
@@ -82,7 +91,7 @@ Left/right নাম avatar-এর শরীরের দিক, ছবির �
 4. Shirt-এর arm UP/FRONT/BACK/LEFT/RIGHT face-এ চাওয়া sleeve/bangle design বসান। Sample 103/107-এর ছোট upper-arm band না full sleeve—ব্যবহারকারীর নির্দেশ অনুযায়ী নির্বাচন করুন।
 5. হাতের যে অংশ খোলা থাকবে সেখানে আসল alpha transparency দিন; skin-color বা checkerboard আঁকবেন না।
 6. Pants-এর pallu/waist/leg continuity এবং Shirt-এর arm borders আলাদাভাবে পরীক্ষা করুন।
-7. Preview-তে শুধু Pants এবং Pants+Shirt-সহ দৃশ্য আলাদা রাখুন, যাতে sleeve-এর প্রভাব বোঝা যায়।
+7. Preview file তৈরি করবেন না। Native PNG দেখে এবং torso composite-এর pixel comparison করে sleeve-এর কাজ যাচাই করুন।
 
 ## রপ্তানি ও যাচাই
 

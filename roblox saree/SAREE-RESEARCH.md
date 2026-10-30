@@ -1,5 +1,16 @@
 # শাড়ি: ব্যবহারকারীর স্যাম্পল বিশ্লেষণ ও ভবিষ্যতের কাজের নিয়ম
 
+
+## ব্যবহারকারীর নিশ্চিত করা শাড়ি ও আলাদা হাতার নিয়ম
+
+ব্যবহারকারী শাড়ি ০৪–০৬-এর আলাদা blouse, broad pallu, true open waist/side cutouts এবং unique motif-based styles পছন্দ করেছেন। ভবিষ্যতে শাড়ি চাইলে এই গঠন ধরে নতুন unique design দিন; আগের full-torso কাপড়ে ঢাকা গঠন ফিরিয়ে আনবেন না। হাতে কাজ চাইলে শাড়ির Pants এবং sleeves-এর Shirt **দুটি আলাদা wearable PNG** দিতে হবে। শুধু শাড়ি বললে অতিরিক্ত হাতা বাধ্যতামূলক নয়।
+
+হাতা-সহ সম্পূর্ণ উদাহরণ: `saree-07-emerald-rose-set/`। Pants-এ শাড়ি ও blouse আছে; Shirt-এ শুধু arms। Shirt-এর mapped torso UP/FRONT/BACK/LEFT/RIGHT/DOWN-এ **প্রতিটি pixel alpha 0**—তাতে Pants-এর blouse/pallu/midriff ঢেকে যায় না। Arm top cap opaque; vertical arm face-এর প্রথম প্রায় 56 pixels-এ short sleeve, নিচের forearm ও hand/DOWN transparent।
+
+নতুন `saree hand.zip`-এর 103/107 source **586×559 RGBA**, native 585×559 নয়। Artwork native coordinates-এ পুনর্গঠন করতে হবে। 103-এ কেন্দ্রীয় arm columns y355–403 পর্যন্ত opaque, 107-এ y355–410। Source-এর mapped torso মূলত transparent; DOWN torso-র মধ্যে source lettering আছে, যা নতুন Shirt-এ কপি করলে শাড়ির ওপর অপ্রয়োজনীয় লেখা/কাপড় বসতে পারে। তাই সব mapped torso faces পরীক্ষা করে সম্পূর্ণ clear রাখতে হবে। Source background, template outline এবং branding কপি নয়।
+
+প্রিভিউতে Pants-only ও Pants+Shirt আলাদা দেখান। PNG file role স্পষ্ট করুন: **Classic Pants** বনাম **Classic Shirt**, square T-shirt graphic নয়। Native RGBA8 এবং per-face alpha যাচাই করুন; layering-এ Pants torso অপরিবর্তিত থাকে কি না pixel comparison করুন। উদাহরণগুলোর style preference ও এই নিয়ম repository notes-এ রাখা হলো, যাতে ভবিষ্যতের কাজেও পুনরায় ব্যবহার করা যায়।
+
 ## সর্বশেষ সংশোধন — কোমর ও পাশের আসল transparency বাধ্যতামূলক
 
 ব্যবহারকারী আগের saree 01–03-এর পুরো কোমর ঢাকা গঠন সংশোধন করতে বলেছেন। নতুন `saree demo 2.zip`-এ native 585×559 RGBA `image 108.png`, `109.png`, `110.png` দিয়েছেন। ব্লাউজ, তার ওপর বাঁক নেওয়া চওড়া আঁচল এবং নিচের শাড়ি আলাদা বোঝাতে কোমর/মিডরিফ, underarm ও উপযুক্ত পাশে আসল alpha cutout রাখুন। শুধু Pants ব্যবহার করার অর্থ সব torso pixel opaque রাখা নয়। Skin colour বা সাদা/কালো রং এঁকে ফাঁকা বোঝাবেন না।

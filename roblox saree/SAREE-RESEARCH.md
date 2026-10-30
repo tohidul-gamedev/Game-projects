@@ -1,9 +1,19 @@
 # শাড়ি: ব্যবহারকারীর স্যাম্পল বিশ্লেষণ ও ভবিষ্যতের কাজের নিয়ম
 
+## সর্বশেষ সংশোধন — কোমর ও পাশের আসল transparency বাধ্যতামূলক
+
+ব্যবহারকারী আগের saree 01–03-এর পুরো কোমর ঢাকা গঠন সংশোধন করতে বলেছেন। নতুন `saree demo 2.zip`-এ native 585×559 RGBA `image 108.png`, `109.png`, `110.png` দিয়েছেন। ব্লাউজ, তার ওপর বাঁক নেওয়া চওড়া আঁচল এবং নিচের শাড়ি আলাদা বোঝাতে কোমর/মিডরিফ, underarm ও উপযুক্ত পাশে আসল alpha cutout রাখুন। শুধু Pants ব্যবহার করার অর্থ সব torso pixel opaque রাখা নয়। Skin colour বা সাদা/কালো রং এঁকে ফাঁকা বোঝাবেন না।
+
+বর্তমান সঠিক উদাহরণ: `saree-04-sapphire-draped/`। নতুন mask `reference/saree-04-alpha-mask-GUIDE-ONLY.png`-এ; geometry `image 109.png`-এর mapped alpha থেকে নেওয়া, ছোট edge/lace noise পরিষ্কার করা হয়েছে। Source artwork, backgrounds এবং source lettering কপি করা হয়নি। নতুন ডেমোর RGB নয়, garment silhouette/cutout structure অনুসরণ করা হয়েছে।
+
+`image 108.png`-এ আলাদা blouse band, diagonal pallu এবং narrow open waist আছে। `109` ও `110`-এ curved broad pallu, rounded neckline, পাশের বড় cutouts এবং lower-drape/foot openings আছে। 109/110 কাছাকাছি layout হলেও alpha pixel-for-pixel একই নয়। ভবিষ্যতের নতুন শাড়িতে 01–03-এর full-waist alpha নয়, এই নতুন cutout structure ভিত্তি হিসেবে নিন; প্রয়োজন হলে ব্যবহারকারীর নতুন reference অনুযায়ী বদলান।
+
+আগের পূর্ণ torso/leg coverage সম্পর্কিত নিচের বর্ণনাগুলো প্রথম সংস্করণের ঐতিহাসিক নোট; সেগুলো নতুন ডিজাইনের শর্ত নয়।
+
 ## ব্যবহারকারীর বর্তমান নির্দেশ
 
 - এখন পাঞ্জাবি নয়, শাড়ি তৈরি হবে।
-- প্রথম শাড়ি শুধু **Classic Pants**: বুক ও পা কাপড়ে ঢাকা থাকবে, দুই হাত খোলা থাকবে।
+- শাড়ি **Classic Pants**: ব্লাউজ, চওড়া আঁচল ও নিচের শাড়ি থাকবে; neckline, কোমর/মিডরিফ, উপযুক্ত পাশে এবং drape-এ cutouts থাকবে; দুই হাত খোলা থাকবে।
 - আলাদা হাতা/বালা/হাতের নকশা কেবল পরে ব্যবহারকারী চাইলে তৈরি করতে হবে।
 - ভাঁজ ও shadow যেন চোখে বেশি না লাগে; সূক্ষ্ম matte cotton texture ও নরম ভাঁজ রাখুন।
 - এই চ্যাটে নতুন তৈরি wearable PNG ও preview অনুমোদিত `tohidul-gamedev/Game-projects` repository-র `main` branch-এ `roblox saree/`-এর নতুন ফোল্ডারে push করার নির্দেশ রয়েছে। বিদ্যমান কাজ বদলাবেন না।
@@ -43,7 +53,7 @@ Top-left origin; zero-based `[x,y,width,height]`। সম্পূর্ণ mac
 
 Left/right নাম avatar-এর শরীরের দিক, ছবির দর্শকের দিক নয়।
 
-## প্রথম তৈরি শাড়ির alpha এবং placement
+## প্রথম তৈরি শাড়ির alpha এবং placement — পুরোনো full-waist সংস্করণের ইতিহাস
 
 - পুরোনো **পাঞ্জাবির neck/hand mask ব্যবহার করা হয়নি**। সেই mask-এ hand cutouts আছে; Pants-এ লাগালে তা পায়ের অংশ কেটে ফেলবে।
 - `image 102.png`-এর upper/front torso neckline alpha 585×559-এ resample করে নেওয়া হয়েছে; torso neckline-এ y109 পর্যন্ত প্রয়োগ করা হয়েছে।
@@ -65,4 +75,4 @@ Left/right নাম avatar-এর শরীরের দিক, ছবির �
 
 ## রপ্তানি ও যাচাই
 
-একটি folds-সহ version, PNG/RGBA8, exact 585×559। Source sample branding, UV outline, visible masks, guide text, mannequin অথবা background wearable faces-এ নয়। Check neckline transparency, বুকের কাভারেজ, সব leg faces, leg center join, pallu seam ও hem। Roblox Studio-তে পরীক্ষা না করলে সেভাবে পরীক্ষা হয়েছে বলে দাবি করবেন না।
+একটি folds-সহ version, PNG/RGBA8, exact 585×559। Source sample branding, UV outline, visible masks, guide text, mannequin অথবা background wearable faces-এ নয়। Check neckline, blouse ও pallu-এর কাভারেজ, সত্যিকারের midriff/side transparency, leg drape openings, leg center join, pallu seam ও hem। সব leg face পুরো opaque থাকা বাধ্যতামূলক নয়; নতুন ডেমোতে intentional openings রয়েছে। Roblox Studio-তে পরীক্ষা না করলে সেভাবে পরীক্ষা হয়েছে বলে দাবি করবেন না।

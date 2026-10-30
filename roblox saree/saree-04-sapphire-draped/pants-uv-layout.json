@@ -1,0 +1,132 @@
+{
+  "platform": "Roblox Classic Pants",
+  "size": [
+    585,
+    559
+  ],
+  "mode": "RGBA8",
+  "panels": {
+    "torso": {
+      "up": [
+        231,
+        8,
+        128,
+        64
+      ],
+      "right": [
+        165,
+        74,
+        64,
+        128
+      ],
+      "front": [
+        231,
+        74,
+        128,
+        128
+      ],
+      "left": [
+        361,
+        74,
+        64,
+        128
+      ],
+      "back": [
+        427,
+        74,
+        128,
+        128
+      ],
+      "down": [
+        231,
+        204,
+        128,
+        64
+      ]
+    },
+    "right_leg": {
+      "up": [
+        217,
+        289,
+        64,
+        64
+      ],
+      "left": [
+        19,
+        355,
+        64,
+        128
+      ],
+      "back": [
+        85,
+        355,
+        64,
+        128
+      ],
+      "right": [
+        151,
+        355,
+        64,
+        128
+      ],
+      "front": [
+        217,
+        355,
+        64,
+        128
+      ],
+      "down": [
+        217,
+        485,
+        64,
+        64
+      ]
+    },
+    "left_leg": {
+      "up": [
+        308,
+        289,
+        64,
+        64
+      ],
+      "front": [
+        308,
+        355,
+        64,
+        128
+      ],
+      "left": [
+        374,
+        355,
+        64,
+        128
+      ],
+      "back": [
+        440,
+        355,
+        64,
+        128
+      ],
+      "right": [
+        506,
+        355,
+        64,
+        128
+      ],
+      "down": [
+        308,
+        485,
+        64,
+        64
+      ]
+    }
+  },
+  "coordinates": "top-left zero-based x,y,width,height",
+  "arms": "Not mapped by Pants. Lower template strips are legs, not sleeves.",
+  "neck_mask": "reference/saree-04-alpha-mask-GUIDE-ONLY.png",
+  "neck_reference": "Native 585x559 user sample image 109.png from saree demo 2.zip; no canvas rescaling.",
+  "source_canvas": "Unused canvas is opaque white; source pink backgrounds and source branding are excluded.",
+  "alpha_reference": "Native user sample image 109.png from saree demo 2.zip; all mapped faces, main openings retained, small isolated lace/edge noise cleaned. This replaces the previous full-waist saree alpha.",
+  "coverage": "Blouse and broad curved pallu are opaque; neckline, armholes, side waist/midriff and lower drape openings are transparent. Leg faces intentionally are not all opaque.",
+  "alpha_mask": "reference/saree-04-alpha-mask-GUIDE-ONLY.png"
+}
